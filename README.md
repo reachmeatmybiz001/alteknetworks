@@ -35,3 +35,11 @@ The service catalogue uses the client-supplied photographs where they are the be
 - End User Computing / Laptops
 
 The remaining service categories retain the existing branded graphics.
+
+
+## Latest image update
+- Home page service cards now use the same service photography as the service pages.
+- Services dropdown now includes compact service thumbnails for all services.
+- All service card images use a consistent 16:9 frame with `object-fit: cover` to avoid distortion and empty letterboxing.
+- Added optimized `card-*` image derivatives for consistent card presentation.
+- Contact page includes the service-interest dropdown and updated consultation form layout.

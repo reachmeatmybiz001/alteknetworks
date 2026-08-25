@@ -24,3 +24,14 @@ The website includes lightweight custom SVG illustrations for the home hero, eve
 
 ## Visual design update
 The hero artwork is contained in a polished presentation card to prevent cropping. Service artwork is intentionally compact, and the footer now uses a light high-contrast banner so the official logo remains clearly visible.
+
+
+## Service Images
+The service catalogue uses the client-supplied photographs where they are the best visual match:
+- Structural Cabling
+- Networking / Switching
+- Data Center
+- CCTV & Surveillance
+- End User Computing / Laptops
+
+The remaining service categories retain the existing branded graphics.

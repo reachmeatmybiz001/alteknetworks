@@ -20,3 +20,7 @@ Keep the `css`, `js`, `assets`, and `services` folders in the repository root.
 
 ## Professional imagery
 The website includes lightweight custom SVG illustrations for the home hero, every service card, and every individual service page. All images are stored locally in `assets/`, so GitHub Pages has no external image dependency.
+
+
+## Visual design update
+The hero artwork is contained in a polished presentation card to prevent cropping. Service artwork is intentionally compact, and the footer now uses a light high-contrast banner so the official logo remains clearly visible.

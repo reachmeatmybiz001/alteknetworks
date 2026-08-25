@@ -1,45 +1,27 @@
-# ALTEKNETWORKS Website
+# AltekNetworks IT Services Website
 
-Professional static website for ALTEKNETWORKS IT SERVICES.
+A lightweight, responsive, static website for **AltekNetworks IT Services — Your Complete IT Infrastructure Partner**.
 
-## Included
-- Professional responsive header with the supplied ALTEKNETWORKS logo
-- Services hover dropdown with all service pages
-- Home, About, Contact and Services pages
-- Individual service detail pages
-- Responsive mobile navigation
-- No homepage trust/statistics strip
-- No header "Talk to an expert" button
-- Service cards without numeric labels
+## What was changed
+- Uses the supplied AltekNetworks logo + tagline in the header.
+- Header logo is cropped for clean, larger display without the original image's excess white space.
+- Services dropdown is **text-only** — the small thumbnail images have been removed.
+- Home page uses professional service icons instead of service thumbnails in the All Services section.
+- Services page uses clean professional icons and text cards rather than large service images.
+- Responsive mobile navigation and service dropdown.
+- Contact page includes the requested service-interest dropdown.
+- Footer uses a dark navy banner with a high-contrast white logo treatment.
+- No build step and no external framework required.
 
-## GitHub Pages
-Upload the complete contents of this repository to the `main` branch and enable GitHub Pages from **Settings → Pages → Deploy from a branch → main → /(root)**.
+## Deploy to GitHub Pages
+1. Create a GitHub repository, for example `alteknetworks`.
+2. Upload all files and folders in this directory.
+3. In GitHub, open **Settings → Pages**.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Select the `main` branch and `/ (root)` folder, then Save.
+6. GitHub Pages will publish `index.html`.
 
-Keep the `css`, `js`, `assets`, and `services` folders in the repository root.
+The repository is intentionally static so it can also be deployed directly to Netlify, Cloudflare Pages, AWS S3/CloudFront, or any normal web server.
 
-
-## Professional imagery
-The website includes lightweight custom SVG illustrations for the home hero, every service card, and every individual service page. All images are stored locally in `assets/`, so GitHub Pages has no external image dependency.
-
-
-## Visual design update
-The hero artwork is contained in a polished presentation card to prevent cropping. Service artwork is intentionally compact, and the footer now uses a light high-contrast banner so the official logo remains clearly visible.
-
-
-## Service Images
-The service catalogue uses the client-supplied photographs where they are the best visual match:
-- Structural Cabling
-- Networking / Switching
-- Data Center
-- CCTV & Surveillance
-- End User Computing / Laptops
-
-The remaining service categories retain the existing branded graphics.
-
-
-## Latest image update
-- Home page service cards now use the same service photography as the service pages.
-- Services dropdown now includes compact service thumbnails for all services.
-- All service card images use a consistent 16:9 frame with `object-fit: cover` to avoid distortion and empty letterboxing.
-- Added optimized `card-*` image derivatives for consistent card presentation.
-- Contact page includes the service-interest dropdown and updated consultation form layout.
+## Contact form note
+The form currently uses `mailto:support@alteknetworks.com`, which opens the visitor's mail client. For server-side delivery, replace the form action with your preferred mail/API endpoint.

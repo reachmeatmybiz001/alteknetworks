@@ -29,24 +29,25 @@ button,input,select,textarea{font:inherit}
 .nav-dropdown{position:relative}
 .nav-drop-btn span{font-size:16px;margin-left:3px}
 .dropdown-panel{
-  position:fixed;
-  top:88px;
-  right:24px;
-  width:340px;
-  max-width:calc(100vw - 32px);
+  position:absolute;
+  top:calc(100% + 1px);
+  left:0;
+  right:auto;
+  width:410px;
+  max-width:min(410px,calc(100vw - 24px));
   background:#fff;
   border:1px solid var(--line);
   box-shadow:0 18px 45px rgba(6,35,68,.14);
   padding:14px 16px;
   display:none;
   grid-template-columns:repeat(2,minmax(0,1fr));
-  column-gap:10px;
+  column-gap:14px;
   row-gap:0;
   z-index:120;
 }
 .nav-dropdown:hover .dropdown-panel,.nav-dropdown.open .dropdown-panel{display:grid}
 .dropdown-panel a{
-  display:flex;align-items:center;min-height:54px;padding:10px 8px;font-size:14px;font-weight:650;color:#58708d;
+  display:flex;align-items:center;min-height:54px;padding:10px 12px;font-size:14px;font-weight:650;color:#58708d;
   border-radius:4px;white-space:normal;line-height:1.35
 }
 .dropdown-panel a:hover{background:#f0f7fc;color:var(--blue)}
@@ -190,7 +191,7 @@ button,input,select,textarea{font:inherit}
   }
   .main-nav.open{display:flex}
   .main-nav>a,.nav-drop-btn{padding:13px 0;text-align:left}
-  .dropdown-panel{position:static;width:auto;max-width:none;grid-template-columns:1fr;gap:0;box-shadow:none;border:0;padding:0 0 0 10px}
+  .dropdown-panel{position:static;left:auto;right:auto;top:auto;width:auto;max-width:none;grid-template-columns:1fr;gap:0;box-shadow:none;border:0;padding:0 0 0 10px}
   .nav-dropdown:hover .dropdown-panel{display:none}
   .nav-dropdown.open .dropdown-panel{display:grid}
   .hero-grid,.split,.about-grid,.contact-grid{grid-template-columns:1fr}
@@ -228,10 +229,10 @@ button,input,select,textarea{font:inherit}
 .service-page-lead{max-width:650px;color:#58718d;font-size:18px;line-height:1.7}
 .service-page-image{width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:18px;background:#eaf1f6;box-shadow:var(--shadow);border:1px solid var(--line)}
 .service-page-image img{width:100%;height:100%;display:block;object-fit:cover;object-position:center}
-.service-overview-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:80px;align-items:start}
+.service-overview-grid{display:block;max-width:980px}.service-overview-main{max-width:860px}
 .service-overview-grid h2{font-size:42px;line-height:1.12;letter-spacing:-1.4px;margin:0 0 18px;color:var(--navy)}
 .service-page-text{color:var(--muted);font-size:17px;line-height:1.75;max-width:700px}
-.service-features{border:1px solid var(--line);background:#f7fafc;padding:28px 32px}
+.service-features{margin-top:28px;border:1px solid var(--line);background:#f7fafc;padding:28px 32px;max-width:100%;box-sizing:border-box}
 .service-features h3{margin:0 0 16px;color:var(--navy);font-size:20px}
 .service-features ul{margin:0;padding-left:20px;color:#55708b;line-height:2}
 @media(max-width:900px){.service-page-grid,.service-overview-grid{grid-template-columns:1fr;gap:35px}.service-page-hero{padding:55px 0 60px}.service-page-heading h1{font-size:44px}.service-page-image{aspect-ratio:16/9}}

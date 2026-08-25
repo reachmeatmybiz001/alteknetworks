@@ -39,3 +39,11 @@ The repository already contains a Git history and can be pushed directly with Gi
 - Services are displayed in two columns with all nine services as direct links to their separate pages.
 - Service-page images use a 16:9 presentation matching the supplied 1200×675 assets, avoiding unwanted cropping.
 - **Portal Login** is available in the header and opens `https://portal.alteknetworks.com` in a new tab.
+
+## Customer Portal — Coming Soon
+
+The `portal/` directory contains the temporary customer portal landing page. The main website's **Portal Login** button already opens `https://portal.alteknetworks.com` in a new tab.
+
+To publish the portal on `portal.alteknetworks.com` using GitHub Pages, deploy the contents of `portal/` as a separate GitHub Pages repository/site and keep the included `portal/CNAME` file. Configure the DNS for `portal.alteknetworks.com` according to GitHub Pages' custom-domain instructions.
+
+The portal page currently displays a branded **Coming Soon...** message. Customer registration, authentication and ticketing will be added in the next phase with a secure backend/database.

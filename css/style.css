@@ -696,3 +696,22 @@
     height: 175px;
   }
 }
+
+/* Service listing: use compact professional icons instead of large photographs */
+.service-card-icon-wrap{
+  height:150px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,#f7fafc 0%,#eef7fb 100%);
+  border-bottom:1px solid var(--line);
+}
+.service-card-icon{
+  width:104px;
+  height:104px;
+  object-fit:contain;
+  display:block;
+  transition:transform .2s ease;
+}
+.service-card:hover .service-card-icon{transform:translateY(-3px) scale(1.03)}
+@media(max-width:800px){.service-card-icon-wrap{height:135px}.service-card-icon{width:92px;height:92px}}

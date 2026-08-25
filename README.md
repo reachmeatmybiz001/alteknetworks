@@ -16,3 +16,7 @@ Professional static website for ALTEKNETWORKS IT SERVICES.
 Upload the complete contents of this repository to the `main` branch and enable GitHub Pages from **Settings → Pages → Deploy from a branch → main → /(root)**.
 
 Keep the `css`, `js`, `assets`, and `services` folders in the repository root.
+
+
+## Professional imagery
+The website includes lightweight custom SVG illustrations for the home hero, every service card, and every individual service page. All images are stored locally in `assets/`, so GitHub Pages has no external image dependency.

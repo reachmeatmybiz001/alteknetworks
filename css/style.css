@@ -44,3 +44,23 @@
 @media(max-width:1050px) and (min-width:801px){.brand-logo{width:280px}.main-nav{gap:18px}.main-nav>a,.nav-dropdown>a{font-size:14px}}
 @media(max-width:800px){.brand-logo{width:245px;max-height:55px}.footer-logo{width:260px}.about-hero,.contact-hero{padding-top:70px;padding-bottom:70px}.about-intro{padding-top:65px;padding-bottom:65px}.commitment-inner{grid-template-columns:1fr;gap:35px}.commitment-section h2{font-size:44px}.enquiry-panel{padding:28px 22px}.form-row{grid-template-columns:1fr}}
 @media(max-width:520px){.brand-logo{width:210px}.about-intro h2,.contact-section h2{font-size:38px}.commitment-section h2{font-size:39px}}
+
+/* Professional local imagery */
+.hero-image{position:relative;min-height:730px;background:#061e37;overflow:hidden}
+.hero-image img{display:block;width:100%;height:100%;object-fit:cover}
+.hero-image:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,30,55,.12),rgba(6,30,55,0) 48%,rgba(8,165,223,.08));pointer-events:none}
+.service-card{overflow:hidden;display:flex;flex-direction:column;padding:0;background:#fff}
+.service-card-image{display:block;width:100%;height:190px;object-fit:cover;background:#061e37}
+.service-card-body{padding:26px 30px 30px}
+.service-card h3{margin-top:0}
+.service-hero{grid-template-columns:48% 52%;min-height:610px}
+.service-hero-copy{padding:90px 55px 80px 0;display:flex;flex-direction:column;justify-content:center}
+.service-hero-image{display:block;min-height:610px;overflow:hidden;background:#061e37}
+.service-hero-image img{width:100%;height:100%;object-fit:cover;display:block}
+@media(max-width:800px){
+ .hero-image{min-height:430px}
+ .service-hero{grid-template-columns:1fr}
+ .service-hero-copy{padding:65px 25px 45px}
+ .service-hero-image{min-height:390px}
+ .service-card-image{height:210px}
+}

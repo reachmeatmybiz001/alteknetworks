@@ -39,3 +39,7 @@ The content and terminology are based on the supplied AltekNetworks Services Bro
 - [CCTV & Surveillance](services/cctv-surveillance.html) — End-to-end IP CCTV and surveillance solutions with cameras, connectivity, video management software and video storage for complete visibility and real-time monitoring.
 - [Cloud Infrastructure](services/cloud-infrastructure.html) — Secure, scalable and reliable cloud infrastructure solutions covering cloud adoption, migration and ongoing infrastructure management.
 - [Annual Maintenance Contracts (AMC)](services/amc.html) — Comprehensive AMC support for Desktops, Laptops, Servers, Network Devices, Firewalls and other IT equipment to maximize uptime and extend equipment lifecycle.
+
+
+## Image-free version
+This deployment intentionally contains no image assets. The service cards and service pages are text-first and fully linked.

@@ -229,3 +229,113 @@
   .service-hero-image{padding:20px;min-height:300px}
   .service-hero-image img{max-height:300px}
 }
+
+/* =========================================================
+   FINAL SERVICE PRESENTATION
+   Services page: consistent professional photography
+   Home page: compact professional service icons
+========================================================= */
+
+/* Services listing cards */
+.service-grid:not(.home-service-grid) {
+  align-items: stretch;
+}
+
+.service-grid:not(.home-service-grid) .service-card {
+  min-width: 0;
+  height: 100%;
+  background: #fff;
+  border: 1px solid #dfe8ef;
+}
+
+.service-grid:not(.home-service-grid) .service-card-image {
+  width: 100%;
+  height: 190px;
+  min-height: 190px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  background: #eef4f8;
+  transition: transform .25s ease;
+}
+
+.service-grid:not(.home-service-grid) .service-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 22px 24px 24px;
+}
+
+.service-grid:not(.home-service-grid) .service-card p {
+  flex: 1;
+}
+
+.service-grid:not(.home-service-grid) .service-card:hover .service-card-image {
+  transform: scale(1.025);
+}
+
+/* Home page service cards: icon-first, no large photographs */
+.home-service-grid .service-card {
+  min-height: 220px;
+  padding: 25px 24px 24px;
+  background: #fff;
+  border: 1px solid #dfe8ef;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-service-grid .home-service-icon {
+  width: 58px;
+  height: 58px;
+  margin-bottom: 18px;
+  border-radius: 14px;
+  background: #eaf7fc;
+  border: 1px solid #ccecf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-service-grid .home-service-icon img {
+  width: 34px;
+  height: 34px;
+  display: block;
+  object-fit: contain;
+}
+
+.home-service-grid .service-card h3 {
+  margin: 0 0 9px;
+  font-size: 20px;
+  color: #09284c;
+}
+
+.home-service-grid .service-card p {
+  margin: 0;
+  color: #667b92;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.home-service-grid .service-card:hover {
+  border-color: #9edcf1;
+  box-shadow: 0 14px 30px rgba(9,40,76,.09);
+  transform: translateY(-4px);
+}
+
+.home-service-grid .service-card:hover .home-service-icon {
+  background: #dff4fb;
+}
+
+@media (max-width: 800px) {
+  .service-grid:not(.home-service-grid) .service-card-image {
+    height: 175px;
+    min-height: 175px;
+  }
+}
+
+@media (max-width: 520px) {
+  .service-grid:not(.home-service-grid) .service-card-image {
+    height: 180px;
+    min-height: 180px;
+  }
+}

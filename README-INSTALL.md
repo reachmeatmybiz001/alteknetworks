@@ -1,20 +1,36 @@
-# ALTEKNETWORKS GitHub Website Logo Update
+# ALTEKNETWORKS — Ready-to-Deploy GitHub Pages Website
 
-## Files
-- `assets/logo-alteknetworks.png` — transparent website logo with italic tagline
-- `assets/favicon.png` — compact icon
-- `header-logo.html` — header HTML snippet
-- `header-logo.css` — header CSS
+This package contains the updated professional homepage and supporting assets.
 
-## Upload to GitHub
-1. Open your `alteknetworks` repository.
-2. Open the `assets` folder (create it if required).
-3. Upload `logo-alteknetworks.png` and `favicon.png`.
-4. Open the existing `index.html`.
-5. Replace the current logo `<img>`/brand block with the contents of `header-logo.html`.
-6. Add the contents of `header-logo.css` to your existing CSS file.
-7. Commit the changes.
-8. GitHub Pages will rebuild the site automatically.
+## Important change
+The **Trusted by Businesses** section/wording has been removed. The rest of the professional homepage design is retained.
 
-## Important
-Do not delete your existing CSS or JavaScript. Only replace the logo/brand block and add the logo sizing CSS.
+## Repository structure
+```text
+/
+├── index.html
+├── about.html              # keep your existing file
+├── contact.html            # keep your existing file
+├── services.html           # keep your existing file
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js             # keep your existing file, if used
+├── assets/
+│   └── logo-alteknetworks.png
+└── .nojekyll
+```
+
+## Deploy
+1. Download and extract this ZIP.
+2. In your GitHub repository, replace `index.html`.
+3. Replace `css/style.css`.
+4. Upload `assets/logo-alteknetworks.png` if your repository does not already contain the correct logo.
+5. Keep your existing `about.html`, `contact.html`, `services.html`, `services/`, and `js/` files.
+6. Commit to the `main` branch.
+7. GitHub Pages will rebuild automatically.
+
+## GitHub Pages
+Repository → Settings → Pages → Source: **Deploy from a branch** → Branch: **main** → Folder: **/ (root)** → Save.
+
+Do not upload the ZIP itself into the website root; extract it first and upload the files/folders.

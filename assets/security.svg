@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Security Solutions">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061e37"/><stop offset=".58" stop-color="#0b3763"/><stop offset="1" stop-color="#0a86b6"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#00152b" flood-opacity=".28"/></filter>
+</defs>
+<rect width="1600" height="900" rx="36" fill="url(#bg)"/>
+<circle cx="1350" cy="90" r="300" fill="#08a5df" opacity=".12"/><circle cx="150" cy="760" r="260" fill="#fff" opacity=".05"/>
+
+<g filter="url(#shadow)"><path d="M600 170l220 90v170c0 155-95 250-220 300-125-50-220-145-220-300V260z" fill="url(#glass)" stroke="#8be2f5" stroke-width="4"/>
+<path d="M600 270l110 45v105c0 78-44 130-110 165-66-35-110-87-110-165V315z" fill="#08a5df" opacity=".18"/>
+<rect x="555" y="360" width="90" height="115" rx="18" fill="#fff" opacity=".94"/><path d="M575 360v-30c0-38 50-38 50 0v30" fill="none" stroke="#fff" stroke-width="18"/></g>
+<g fill="#bfeefa"><circle cx="1040" cy="270" r="14"/><circle cx="1120" cy="330" r="14"/><circle cx="1190" cy="410" r="14"/></g>
+<path d="M820 270C920 270 940 270 1040 270M820 330C940 330 980 330 1120 330M820 410C980 410 1050 410 1190 410" stroke="#5ed4f1" stroke-width="6" stroke-dasharray="12 12"/>
+<text x="86" y="810" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#fff" opacity=".94">Security Solutions</text>
+<rect x="86" y="838" width="160" height="5" rx="2.5" fill="#08a5df"/>
+</svg>

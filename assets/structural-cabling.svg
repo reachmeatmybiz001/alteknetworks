@@ -11,6 +11,4 @@
 <rect x="970" y="220" width="340" height="90" rx="14" fill="#123a5b"/>
 <g stroke-linecap="round" fill="none"><path d="M1000 265C860 265 820 430 670 430S500 600 310 600" stroke="#21b7e8" stroke-width="18"/><path d="M1020 265C900 265 880 390 760 390S560 510 400 510" stroke="#5dd2f2" stroke-width="13"/><path d="M1040 265C940 265 920 330 840 330S650 440 510 440" stroke="#d4f6ff" stroke-width="9"/></g>
 <text x="990" y="580" font-family="Arial" font-size="25" fill="#d8f4fb">CAT6 • Fiber • Racks</text></g>
-<text x="86" y="810" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#fff" opacity=".94">Structural Cabling</text>
-<rect x="86" y="838" width="160" height="5" rx="2.5" fill="#08a5df"/>
 </svg>

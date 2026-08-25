@@ -11,6 +11,4 @@
 <circle cx="720" cy="350" r="38" fill="#0b3763"/><circle cx="720" cy="350" r="18" fill="#08a5df"/><path d="M560 400v180M640 400v180" stroke="#bfeefa" stroke-width="18"/><path d="M505 600h240" stroke="#fff" stroke-width="20" stroke-linecap="round"/></g>
 <g opacity=".9"><rect x="1000" y="180" width="330" height="240" rx="24" fill="#07192e" stroke="#7fdaf0"/><path d="M1040 360l70-80 60 55 55-70 65 95" fill="none" stroke="#08a5df" stroke-width="9"/><circle cx="1090" cy="285" r="10" fill="#fff"/></g>
 <path d="M790 390C900 390 900 300 1000 300" stroke="#69d8f1" stroke-width="7" stroke-dasharray="12 12" fill="none"/>
-<text x="86" y="810" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#fff" opacity=".94">CCTV &amp; Surveillance</text>
-<rect x="86" y="838" width="160" height="5" rx="2.5" fill="#08a5df"/>
 </svg>

@@ -12,6 +12,4 @@
 <circle cx="615" cy="390" r="70" fill="#08a5df" opacity=".18" stroke="#8fe5f6" stroke-width="3"/>
 <circle cx="500" cy="390" r="18" fill="#08a5df"/><circle cx="730" cy="390" r="18" fill="#08a5df"/><circle cx="615" cy="305" r="18" fill="#08a5df"/><circle cx="615" cy="475" r="18" fill="#08a5df"/>
 <path d="M518 390h194M615 323v134M518 390L615 323M712 390L615 323M518 390L615 457M712 390L615 457" stroke="#b9effb" stroke-width="7" fill="none"/></g>
-<text x="86" y="810" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#fff" opacity=".94">Networking Solutions</text>
-<rect x="86" y="838" width="160" height="5" rx="2.5" fill="#08a5df"/>
 </svg>

@@ -11,6 +11,4 @@
 <rect x="450" y="220" width="360" height="215" rx="12" fill="#0f3a5b"/><path d="M610 265l55 55-55 55-55-55z" fill="none" stroke="#8ee5f5" stroke-width="10"/><path d="M575 320h70" stroke="#08a5df" stroke-width="10"/>
 <path d="M535 475h190" stroke="#fff" stroke-width="18" stroke-linecap="round"/><path d="M590 475l-30 60h150l-30-60" fill="#0b2b4b" stroke="#7fdaf0" stroke-width="4"/></g>
 <g filter="url(#shadow)"><rect x="980" y="240" width="300" height="400" rx="30" fill="#07192e" stroke="#7fdaf0" stroke-opacity=".55"/><rect x="1010" y="285" width="240" height="300" rx="18" fill="#0f3a5b"/><circle cx="1130" cy="615" r="9" fill="#08a5df"/></g>
-<text x="86" y="810" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#fff" opacity=".94">End User Computing</text>
-<rect x="86" y="838" width="160" height="5" rx="2.5" fill="#08a5df"/>
 </svg>

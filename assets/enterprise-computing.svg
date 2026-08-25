@@ -12,6 +12,4 @@
 <rect x="480" y="300" width="270" height="150" rx="16" fill="#0b2846" stroke="#4a8eac"/>
 <path d="M525 395h180M525 360h130" stroke="#bceff9" stroke-width="10" stroke-linecap="round"/>
 <circle cx="710" cy="360" r="8" fill="#08a5df"/><circle cx="710" cy="395" r="8" fill="#08a5df"/></g>
-<text x="86" y="810" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#fff" opacity=".94">Enterprise Computing</text>
-<rect x="86" y="838" width="160" height="5" rx="2.5" fill="#08a5df"/>
 </svg>

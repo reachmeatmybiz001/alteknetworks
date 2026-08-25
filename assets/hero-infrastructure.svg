@@ -13,6 +13,4 @@
 <path d="M565 350h80M605 310v80M580 325l50 50M630 325l-50 50" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
 <text x="510" y="420" font-family="Arial" font-size="23" fill="#d8f4fb">Secure • Connected • Reliable</text></g>
 <path d="M760 350C850 350 860 300 900 300M760 390C880 390 920 520 1160 520" fill="none" stroke="#72d9f4" stroke-width="7" stroke-dasharray="12 16"/>
-<text x="86" y="810" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#fff" opacity=".94">Integrated IT Infrastructure</text>
-<rect x="86" y="838" width="160" height="5" rx="2.5" fill="#08a5df"/>
 </svg>

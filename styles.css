@@ -202,3 +202,22 @@ button,input,select,textarea{font:inherit}
   .service-detail-content{padding:21px}
   .contact-form{padding:20px}
 }
+
+/* Individual service pages */
+.service-title-link{color:inherit;text-decoration:none}
+.service-title-link:hover{color:var(--blue)}
+.service-page-hero{padding:70px 0 78px;background:linear-gradient(120deg,#f5f9fc,#fff 55%,#eef8fd)}
+.service-page-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:60px;align-items:center}
+.service-page-heading{display:flex;align-items:center;gap:18px;margin:10px 0 22px}
+.service-page-heading .detail-icon{flex:0 0 62px;width:62px;height:62px;border-radius:16px}
+.service-page-heading h1{margin:0;color:var(--navy);font-size:clamp(42px,5vw,66px);line-height:1.05;letter-spacing:-2.3px}
+.service-page-lead{max-width:650px;color:#58718d;font-size:18px;line-height:1.7}
+.service-page-image{width:100%;aspect-ratio:16/10;overflow:hidden;border-radius:18px;background:#eaf1f6;box-shadow:var(--shadow)}
+.service-page-image img{width:100%;height:100%;display:block;object-fit:cover;object-position:center}
+.service-overview-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:80px;align-items:start}
+.service-overview-grid h2{font-size:42px;line-height:1.12;letter-spacing:-1.4px;margin:0 0 18px;color:var(--navy)}
+.service-page-text{color:var(--muted);font-size:17px;line-height:1.75;max-width:700px}
+.service-features{border:1px solid var(--line);background:#f7fafc;padding:28px 32px}
+.service-features h3{margin:0 0 16px;color:var(--navy);font-size:20px}
+.service-features ul{margin:0;padding-left:20px;color:#55708b;line-height:2}
+@media(max-width:900px){.service-page-grid,.service-overview-grid{grid-template-columns:1fr;gap:35px}.service-page-hero{padding:55px 0 60px}.service-page-heading h1{font-size:44px}.service-page-image{aspect-ratio:16/9}}

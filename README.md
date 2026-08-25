@@ -81,3 +81,18 @@ git push -u origin main
 ```
 
 The supplied project is intentionally a static website, so there is no `npm install`, build command, or server-side dependency.
+
+
+## Service pages
+Each of the nine services has its own standalone page. The Services dropdown, Home service cards, and service overview links navigate directly to those pages.
+
+Service pages:
+- service-structural-cabling.html
+- service-networking-solutions.html
+- service-data-center-solutions.html
+- service-security-solutions.html
+- service-enterprise-computing.html
+- service-end-user-computing.html
+- service-cctv-surveillance.html
+- service-cloud-infrastructure.html
+- service-amc.html

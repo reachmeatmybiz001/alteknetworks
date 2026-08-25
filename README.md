@@ -1,27 +1,30 @@
-# AltekNetworks IT Services Website
+# AltekNetworks IT Services
 
-A lightweight, responsive, static website for **AltekNetworks IT Services — Your Complete IT Infrastructure Partner**.
+Static, responsive website for **AltekNetworks IT Services — Your Complete IT Infrastructure Partner**.
 
-## What was changed
-- Uses the supplied AltekNetworks logo + tagline in the header.
-- Header logo is cropped for clean, larger display without the original image's excess white space.
-- Services dropdown is **text-only** — the small thumbnail images have been removed.
-- Home page uses professional service icons instead of service thumbnails in the All Services section.
-- Services page uses clean professional icons and text cards rather than large service images.
-- Responsive mobile navigation and service dropdown.
-- Contact page includes the requested service-interest dropdown.
-- Footer uses a dark navy banner with a high-contrast white logo treatment.
-- No build step and no external framework required.
+## Included
+- Home page with the supplied data-center hero image.
+- Services page with the supplied service images, standardized to a consistent 16:9 presentation while preserving the complete source images.
+- Text-only Services navigation dropdown (no thumbnails).
+- About page and Contact page with the service-interest dropdown.
+- Responsive desktop/mobile navigation.
+- No external framework or build step required.
+- `.git` repository included and branch set to `main`.
+- `.nojekyll` included for GitHub Pages.
+
+## Service coverage
+Structural Cabling; Networking Solutions; Data Center Solutions; Security Solutions; Enterprise Computing; End User Computing; CCTV & Surveillance; Cloud Infrastructure; Annual Maintenance Contracts (AMC).
+
+## Content basis
+The copy uses the service terminology and positioning established for AltekNetworks and the referenced public website at https://alteknetworks.com/. The public page was accessible for reference, but its body copy was not fully exposed to the web text extractor, so no unsupported company claims have been added.
 
 ## Deploy to GitHub Pages
-1. Create a GitHub repository, for example `alteknetworks`.
-2. Upload all files and folders in this directory.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)` folder, then Save.
-6. GitHub Pages will publish `index.html`.
+1. Create or open your GitHub repository.
+2. Copy/push this repository to the `main` branch.
+3. Open **Settings → Pages**.
+4. Select **Deploy from a branch**.
+5. Select `main` and `/ (root)`.
+6. Save and wait for the Pages deployment.
 
-The repository is intentionally static so it can also be deployed directly to Netlify, Cloudflare Pages, AWS S3/CloudFront, or any normal web server.
-
-## Contact form note
-The form currently uses `mailto:support@alteknetworks.com`, which opens the visitor's mail client. For server-side delivery, replace the form action with your preferred mail/API endpoint.
+## Local preview
+Open `index.html` directly in a browser, or serve the folder with any static web server.

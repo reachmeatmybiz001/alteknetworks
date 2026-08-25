@@ -35,3 +35,8 @@ The service catalogue uses the client-supplied photographs where they are the be
 - End User Computing / Laptops
 
 The remaining service categories retain the existing branded graphics.
+
+## Latest visual update
+- Services listing now uses the supplied service photography with a consistent 190px image area and responsive cropping.
+- Home page service cards now use compact professional SVG icons instead of large banner images.
+- Services page markup was cleaned up to remove duplicated document/script wrappers.

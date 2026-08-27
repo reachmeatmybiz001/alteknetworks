@@ -138,11 +138,16 @@ button,input,select,textarea{font:inherit}
 .about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px}
 .about-grid p{color:var(--muted);font-size:16px}
 .light{background:var(--soft)}
-.commit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:28px}
-.commit-grid>div{background:#fff;border:1px solid var(--line);padding:25px;min-height:205px}
-.commit-no{color:var(--blue);font-weight:850}
-.commit-grid h3{font-size:18px;line-height:1.3}
-.commit-grid p{color:var(--muted);font-size:13px}
+.commit-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:20px;margin-top:28px;align-items:stretch}
+.commit-card{background:#fff;border:1px solid var(--line);padding:24px 22px;min-height:270px;display:flex;flex-direction:column;box-shadow:0 6px 20px rgba(8,38,70,.035);transition:transform .2s,box-shadow .2s}
+.commit-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(8,38,70,.08)}
+.commit-icon{width:58px;height:58px;border-radius:14px;background:#e9f6fd;color:var(--blue);display:grid;place-items:center;margin-bottom:17px;flex:none}
+.commit-icon svg{width:31px;height:31px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.customer-icon{background:#fff8df;overflow:hidden}
+.customer-icon img{width:52px;height:52px;object-fit:contain;display:block}
+.commit-no{color:var(--blue);font-weight:850;font-size:12px;letter-spacing:1px}
+.commit-card h3{font-size:18px;line-height:1.3;margin:8px 0 10px;color:var(--navy)}
+.commit-card p{color:var(--muted);font-size:13px;line-height:1.65;margin:0}
 
 /* Contact */
 .contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px}
@@ -198,7 +203,7 @@ button,input,select,textarea{font:inherit}
   .hero-grid{padding-top:45px;padding-bottom:55px}
   .hero-image-wrap{min-height:380px}
   .service-icon-grid{grid-template-columns:1fr 1fr}
-  .commit-grid{grid-template-columns:1fr 1fr}
+  .commit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .footer-grid{grid-template-columns:1fr 1fr}
   .contact-grid{gap:40px}
   .page-hero{padding:60px 0}

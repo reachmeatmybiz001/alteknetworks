@@ -242,3 +242,18 @@ button,input,select,textarea{font:inherit}
 .service-overview-grid h2{font-size:42px;line-height:1.12;letter-spacing:-1.4px;margin:0 0 18px;color:var(--navy)}
 .service-page-text{color:var(--muted);font-size:17px;line-height:1.75;max-width:700px}
 @media(max-width:900px){.service-page-grid,.service-overview-grid{grid-template-columns:1fr;gap:35px}.service-page-hero{padding:55px 0 60px}.service-page-heading h1{font-size:44px}.service-page-image{aspect-ratio:16/9}.service-page-copy .service-features{max-width:100%}}
+
+/* Careers */
+.career-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.career-card{border:1px solid var(--line);background:#fff;padding:30px 30px 28px;box-shadow:0 8px 28px rgba(8,38,70,.05);display:flex;flex-direction:column}
+.career-card-top{display:flex;align-items:center;gap:16px;padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid var(--line)}
+.career-icon{flex:0 0 auto;min-width:58px;height:58px;padding:0 9px;border-radius:14px;background:#e9f6fd;color:var(--blue);display:grid;place-items:center;font-size:11px;font-weight:850;letter-spacing:.5px}
+.career-card h3{margin:0;color:var(--navy);font-size:23px;line-height:1.25}
+.career-exp{margin:5px 0 0;color:var(--blue);font-size:13px;font-weight:750}
+.career-card h4{margin:0 0 8px;color:var(--navy);font-size:15px}
+.career-card>p{margin:0 0 12px;color:var(--muted);font-size:14px;line-height:1.65}
+.career-card ul{margin:0;padding-left:19px;color:#55708b;font-size:13px;line-height:1.75}
+.career-apply{align-self:flex-start;margin-top:22px}
+.career-note{margin-top:30px;padding:18px 20px;background:var(--soft);border:1px solid var(--line);color:#55708b;font-size:14px}
+.career-note a{color:var(--blue);font-weight:750}
+@media(max-width:650px){.career-grid{grid-template-columns:1fr}.career-card{padding:24px 20px}}

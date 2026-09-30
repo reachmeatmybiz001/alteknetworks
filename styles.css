@@ -27,7 +27,6 @@ button,input,select,textarea{font:inherit}
 .main-nav>a,.nav-drop-btn{padding:31px 0;background:none;border:0;color:var(--ink);font:inherit;cursor:pointer;white-space:nowrap}
 .main-nav>a:hover,.main-nav .active,.nav-drop-btn:hover{color:var(--blue)}
 .nav-dropdown{position:relative}
-.nav-drop-btn span{font-size:16px;margin-left:3px}
 .dropdown-panel{
   position:absolute;
   top:calc(100% + 1px);
